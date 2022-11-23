@@ -11,7 +11,7 @@ or in a stack, behind a traefik reverse proxy (proxy-ception?):
 ```
 version: "3.3"
 services:
-  eco-:
+  eco-website:
     image: ghcr.io/joamla96/nginx-simple-reverse-proxy:latest
     restart: always
     networks:
